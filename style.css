@@ -29,3 +29,11 @@
     height: 170px;
     border: 1px solid black;
 }
+
+.caixaMsg {
+    width: 500px;
+    height: 150px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border: 1px solid black;
+}
