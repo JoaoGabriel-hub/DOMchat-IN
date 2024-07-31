@@ -39,7 +39,7 @@
     border: 1px solid black;
 }
 
-.form > button {
+.btn {
     position: absolute;
     top: 5px;
     right: 5px;
