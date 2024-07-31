@@ -14,7 +14,7 @@
 
 .cabeca {
     background-color: gray;
-    width: 100%;
+    width: 817px;
     height: 68px;
     border-bottom: 2px solid black;
 }
@@ -33,7 +33,7 @@
 
 .form {
     position: relative;
-    width: 609px;
+    width: 817px;
     height: 100px;
     border: 1px solid black;
 }
@@ -46,7 +46,7 @@
     border: 1px solid black;
 }
 
-.btn {
+.btn_enviar {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -57,9 +57,29 @@
 }
 
 .card {
-    width: 817px;
-    height: 68px;
-
+    max-width: 817px;
     background: #FFFFFF;
     border: 1px solid black;
+    margin-bottom: 7px;
+    padding: 10px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.card p {
+    margin: 0;
+}
+
+.botao-container {
+    margin-top: 7px;
+    text-align: right;
+    padding-bottom: 7px;
+}
+
+.btn_editar, .btn_excluir {
+    cursor: pointer;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 5px;
 }
