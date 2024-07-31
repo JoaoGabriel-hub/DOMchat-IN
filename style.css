@@ -24,6 +24,12 @@
     margin-left: 15px;
 }
 
+.espaco {
+    width: 817px;
+    height: 392px;
+    border: 1px solid black;
+}
+
 .form {
     position: relative;
     width: 609px;
