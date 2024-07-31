@@ -19,6 +19,11 @@ function enviar_msg() {
     btn_excluir.classList.add("btn_excluir");
     botaoContainer.append(btn_excluir);
 
+    btn_excluir.addEventListener("click", () => {
+        card.remove();
+        botaoContainer.remove();
+    });
+
     let secao = document.querySelector(".espaco");
     secao.append(card);
     secao.append(botaoContainer);
@@ -26,4 +31,4 @@ function enviar_msg() {
 }   
 
 let btn_enviar = document.querySelector(".btn_enviar");
-btn_enviar.addEventListener("click", ()=>{enviar_msg()})
+btn_enviar.addEventListener("click", ()=>{enviar_msg()});
