@@ -4,6 +4,7 @@ function enviar_msg() {
     let texto = document.createElement("p");
     texto.innerText = input.value;
     card.append(texto);
+    card.classList.add("card")
 
     let secao = document.querySelector(".espaco");
     secao.append(card);
