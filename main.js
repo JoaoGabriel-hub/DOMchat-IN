@@ -24,6 +24,11 @@ function enviar_msg() {
         botaoContainer.remove();
     });
 
+    btn_editar.addEventListener("click", () => {
+        let novoTexto = prompt("Edite a mensagem:", texto.innerText);
+        texto.innerText = novoTexto;
+    })
+
     let secao = document.querySelector(".espaco");
     secao.append(card);
     secao.append(botaoContainer);
